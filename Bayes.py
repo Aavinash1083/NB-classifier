@@ -60,7 +60,7 @@ f.add_subplot(1,2,1)
 sns.distplot(df['Na'], color='green')
 f.add_subplot(1,2,2)
 sns.boxplot(df['Na'], color='green')
-
+plt.show()
 
 
 #Correlation between features
