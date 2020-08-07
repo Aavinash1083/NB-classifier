@@ -52,7 +52,7 @@ f.add_subplot(1,2,1)
 sns.distplot(df['RI'])
 f.add_subplot(1,2,2)
 sns.boxplot(df['RI']);
-
+plt.show()
 
 #Univariate analysis Na (Sodium).
 f = plt.figure(figsize=(20,4))
