@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 import warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv('glass.csv')
+df = pd.read_csv('class.csv')
 print(df)
 
 
