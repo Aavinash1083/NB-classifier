@@ -19,8 +19,10 @@ df.head()
 #Top 5 data from bottom
 df.tail()
 
+
 #Viewing the number of rows (214) and number of columns / features (10)
 df.shape
+
 
 
 #General information of data
@@ -32,12 +34,15 @@ df.info()
 df.describe()
 
 
+
 #Data is clean and can continue to the Explorary Data Analysis stage
 df.isnull().sum()
 
 
 #Univariate analysis Type (Target features).
 sns.countplot(df['Type'], color='red')
+plt.show()
+
 
 
 
